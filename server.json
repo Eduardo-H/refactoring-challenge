@@ -1,20 +1,28 @@
 {
   "foods": [
     {
-      "image": "https://images.unsplash.com/photo-1597131628347-c769fc631754?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80",
-      "name": "Pasta with Olives",
-      "price": "25.99",
-      "description": "An amazing experience of the best Italian cooking in one plate.",
-      "available": true,
-      "id": 1
-    },
-    {
       "image": "https://images.unsplash.com/photo-1564128442383-9201fcc740eb?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1402&q=80",
       "name": "Pepperoni Pizza",
       "price": "20",
       "description": "The delicious combination of cheese and pepperoni will make your night better.",
       "available": true,
       "id": 2
+    },
+    {
+      "image": "https://images.unsplash.com/photo-1603570416072-84068a0f1358?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80",
+      "name": "Pasta with Mushrooms",
+      "price": "80",
+      "description": "An explosion of flavors, incluiding delicious mushrooms and spices.",
+      "available": true,
+      "id": 3
+    },
+    {
+      "image": "https://images.unsplash.com/photo-1601556123240-462c758a50db?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80",
+      "name": "Gnocchi",
+      "price": "50",
+      "description": "Try the best traditional gnocchi of the city. You won't regret it.",
+      "available": true,
+      "id": 4
     }
   ]
 }

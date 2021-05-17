@@ -5,7 +5,7 @@ export const Container = styled.div`
     padding: 30px 0;
 
     header {
-        width: 1280px;
+        width: 90%;
         margin: 0 auto;
         padding: 0 0 160px;
         display: flex;
@@ -41,14 +41,10 @@ export const Container = styled.div`
         }
     }
 
-    @media (max-width: 1280px) {
+    @media (max-width: 1080px) {
         header {
             width: 100%;
             padding: 0 20px 160px;
-
-            img {
-                width: 120px;
-            }
 
             nav {
                 div {
@@ -57,6 +53,12 @@ export const Container = styled.div`
                     }
                 }
             }
+        }
+    }
+
+    @media (max-width: 720px) {
+        img {
+            width: 120px;
         }
     }
 `;
