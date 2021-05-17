@@ -24,15 +24,15 @@ export function ModalAddFood({isOpen, setIsOpen, handleAddFood}: ModalAddFoodPro
     return (
         <Modal isOpen={isOpen} setIsOpen={setIsOpen}>
             <Form ref={formRef} onSubmit={handleSubmit}>
-                <h1>Novo Prato</h1>
-                <Input name="image" placeholder="Cole o link aqui" />
+                <h1>New Dish</h1>
+                <Input name="image" placeholder="Paste the image link here" />
 
-                <Input name="name" placeholder="Ex: Moda Italiana" />
-                <Input name="price" placeholder="Ex: 19.90" />
+                <Input name="name" placeholder="e.g. Pasta" />
+                <Input name="price" placeholder="e.g. 19.90" />
 
-                <Input name="description" placeholder="Descrição" />
+                <Input name="description" placeholder="Description" />
                 <button type="submit" data-testid="add-food-button">
-                    <p className="text">Adicionar Prato</p>
+                    <p className="text">Save Dish</p>
                     <div className="icon">
                         <FiCheckSquare size={24} />
                     </div>

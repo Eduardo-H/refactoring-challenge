@@ -65,7 +65,7 @@ export function FoodCard({
                 </div>
 
                 <div className="availability-container">
-                    <p>{isAvailable ? 'Disponível' : 'Indisponível'}</p>
+                    <p>{isAvailable ? 'Available' : 'Unavailable'}</p>
 
                     <label htmlFor={`available-switch-${food.id}`} className="switch">
                         <input
