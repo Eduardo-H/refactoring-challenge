@@ -13,16 +13,24 @@
       "name": "Pasta with Mushrooms",
       "price": "80",
       "description": "An explosion of flavors, incluiding delicious mushrooms and spices.",
-      "available": true,
+      "available": false,
       "id": 3
     },
     {
-      "image": "https://images.unsplash.com/photo-1601556123240-462c758a50db?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80",
-      "name": "Gnocchi",
-      "price": "50",
-      "description": "Try the best traditional gnocchi of the city. You won't regret it.",
+      "image": "https://images.unsplash.com/photo-1563379926898-05f4575a45d8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
+      "name": "Seafood Pasta",
+      "price": "60",
+      "description": "Seafood pasta with shrimps and tomatoes in a pan.",
       "available": true,
       "id": 4
+    },
+    {
+      "image": "https://images.unsplash.com/photo-1594978583693-8dfdfc93f052?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1172&q=80",
+      "name": "Bruschettas",
+      "price": "15",
+      "description": "An amazing portion of bruschettas cooked with love.",
+      "available": true,
+      "id": 5
     }
   ]
 }

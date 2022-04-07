@@ -46,7 +46,20 @@ export const Form = styled(Unform)`
         padding: 20px 20px;
 
         h1 {
+            font-size: 28px;
             margin-bottom: 25px;
+        }
+
+        button {
+            margin-top: 30px;
+
+            .text {
+                padding: 10px 20px;
+            }
+
+            .icon {
+                padding: 10px 10px;
+            }
         }
     }
 `;

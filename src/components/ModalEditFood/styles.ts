@@ -14,20 +14,17 @@ export const Form = styled(Unform)`
     }
 
     button {
-        margin-top: 48px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
         align-self: flex-end;
-    }
 
-    button {
+        margin-top: 48px;
         font-weight: 600;
         border-radius: 8px;
         border: 0;
         background: #39b100;
         color: #fff;
-
-        display: flex;
-        flex-direction: row;
-        align-items: center;
 
         .text {
             padding: 16px 24px;
@@ -46,7 +43,20 @@ export const Form = styled(Unform)`
         padding: 20px 20px;
 
         h1 {
+            font-size: 28px;
             margin-bottom: 25px;
+        }
+
+        button {
+            margin-top: 30px;
+
+            .text {
+                padding: 10px 20px;
+            }
+
+            .icon {
+                padding: 10px 10px;
+            }
         }
     }
 `;

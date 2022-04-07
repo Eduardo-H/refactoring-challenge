@@ -10,22 +10,22 @@ interface HeaderProps {
 export function Header({openModal}: HeaderProps) {
     return (
         <Container>
-        <header>
-            <img src={Logo} alt="GoRestaurant" />
-            <nav>
-                <div>
-                    <button
-                        type="button"
-                        onClick={openModal}
-                    >
-                    <div className="text">New Dish</div>
-                    <div className="icon">
-                        <FiPlusSquare size={24} />
+            <header>
+                <img src={Logo} alt="GoRestaurant" />
+                <nav>
+                    <div>
+                        <button
+                            type="button"
+                            onClick={openModal}
+                        >
+                            <div className="text">New Dish</div>
+                            <div className="icon">
+                                <FiPlusSquare size={24} />
+                            </div>
+                        </button>
                     </div>
-                    </button>
-                </div>
-            </nav>
-        </header>
+                </nav>
+            </header>
         </Container>
     )
 };

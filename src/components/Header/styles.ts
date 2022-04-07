@@ -36,6 +36,20 @@ export const Container = styled.div`
                         border-radius: 0 8px 8px 0;
                         margin: 0 auto;
                     }
+
+                    @media (max-width: 768px) {
+                        .text {
+                            padding: 10px 14px;
+                        }
+
+                        .icon {
+                            display: flex;
+                            padding: 10px 10px;
+                            background: #41c900;
+                            border-radius: 0 8px 8px 0;
+                            margin: 0 auto;
+                        }
+                    }
                 }
             }
         }
@@ -58,7 +72,7 @@ export const Container = styled.div`
 
     @media (max-width: 720px) {
         img {
-            width: 120px;
+            width: 150px;
         }
     }
 `;

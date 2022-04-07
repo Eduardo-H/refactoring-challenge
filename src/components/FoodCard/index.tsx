@@ -40,7 +40,7 @@ export function FoodCard({
                 <h2>{food.name}</h2>
                 <p>{food.description}</p>
                 <p className="price">
-                    R$ <b>{food.price}</b>
+                    $<strong>{food.price}</strong>
                 </p>
             </section>
             <section className="footer">

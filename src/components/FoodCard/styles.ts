@@ -7,6 +7,8 @@ interface HeaderProps {
 export const Container = styled.div<HeaderProps>`
     background: #f0f0f5;
     border-radius: 8px;
+    display: flex;
+    flex-direction: column;
 
     header {
         background: #ffb84d;
@@ -27,6 +29,7 @@ export const Container = styled.div<HeaderProps>`
     }
 
     section.body {
+        flex: 1;
         padding: 30px;
 
         h2 {
@@ -92,7 +95,7 @@ export const Container = styled.div<HeaderProps>`
             .switch {
                 position: relative;
                 display: inline-block;
-                width: 80px;
+                width: 60px;
                 height: 32px;
                 margin-left: 12px;
 
@@ -137,9 +140,9 @@ export const Container = styled.div<HeaderProps>`
                 }
 
                 input:checked + .slider:before {
-                    -webkit-transform: translateX(44px);
-                    -ms-transform: translateX(44px);
-                    transform: translateX(44px);
+                    -webkit-transform: translateX(24px);
+                    -ms-transform: translateX(24px);
+                    transform: translateX(24px);
                 }
             }
         }

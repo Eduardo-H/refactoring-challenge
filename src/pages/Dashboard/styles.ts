@@ -13,6 +13,11 @@ export const FoodsContainer = styled.div`
     grid-gap: 32px;
 
     @media (max-width: 1080px) {
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 32px;
+    }
+
+    @media (max-width: 768px) {
         display: block;
         padding: 40px 20px;
     }
